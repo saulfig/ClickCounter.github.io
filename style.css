@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(85deg,rgb(240, 15, 109),rgb(230, 161, 161));
+    font-family: 'Crimson Text', serif;
+}
+
+main{
+    margin-left: 40%;
+
+}
+
+.container{
+    display: flex;
+    margin-top: 5%;
+    left: 30%;
+    list-style: none;
+
+}
+
+.container-header header ul{
+    display: flex;
+    list-style: none;
+    margin-left: -30%;
+}
+.container-header header nav ul li button {
+    border-color: rgb(241, 1, 113);
+    background-color: aliceblue;
+    width: 90px;
+    border-radius: 18px;
+    text-align: none;
+    color: #1c1546;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+    font-size: 14px;
+}
+.container-header header nav ul li button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(241, 1, 113);
+    
+    
+    
+}
+
+h2{
+    margin-top: 15%;
+    display: flex;
+    margin-left: -8%;
+    font-size: 53px;
+    
+}
+
+h2:hover{
+
+}
+
+.span-counter{
+    display: flex;
+    margin-left: 6%;
+   position: relative;
+   font-size: 122px;
+   margin-top: 2%;
+
+}
